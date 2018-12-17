@@ -1,0 +1,77 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #333333;
+}
+header,
+.content,
+footer,
+div {
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+}
+header {
+  height: 270px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 110px;
+}
+header .main-navigation {
+  position: relative;
+  top: 236px;
+  height: 35px;
+}
+header .main-navigation li {
+  float: left;
+}
+header .main-navigation a {
+  color: #262626;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 120px;
+  height: 35px;
+  padding-top: 9px;
+  text-align: center;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+}
+header .main-navigation a:hover {
+  background-color: #ffffff;
+}
+.parallax-window {
+  height: 270px;
+  width: 100%;
+  background: transparent;
+}
+.content {
+  width: 1200px;
+}
+.content .article {
+  line-height: 1.7;
+  background-color: #e6e6e6;
+  padding: 30px 50px;
+  -webkit-box-shadow: #262626;
+          box-shadow: #262626;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
+          box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
+}
+.wrapper {
+  max-width: 960px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer {
+  margin-top: 110px;
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/texture1.jpg');
+}
