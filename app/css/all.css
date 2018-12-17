@@ -2,6 +2,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #333333;
 }
+.block-background {
+  background-color: #e6e6e6;
+  -webkit-box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
+          box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
+}
 header,
 .content,
 footer,
@@ -11,6 +16,18 @@ div {
 a {
   text-decoration: none;
   margin: 0;
+}
+.left-sidebar {
+  float: left;
+  margin-left: 30px;
+}
+.right-sidebar {
+  float: right;
+  margin-right: 30px;
+}
+.sidebar {
+  width: 270px;
+  height: 200px;
 }
 header {
   height: 270px;
@@ -53,13 +70,8 @@ header .main-navigation a:hover {
 }
 .content .article {
   line-height: 1.7;
-  background-color: #e6e6e6;
   padding: 30px 50px;
-  -webkit-box-shadow: #262626;
-          box-shadow: #262626;
   margin-bottom: 50px;
-  -webkit-box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
-          box-shadow: 9px 10px 12px -4px rgba(0, 0, 0, 0.44);
 }
 .wrapper {
   max-width: 960px;
